@@ -1,0 +1,139 @@
+body {
+    margin: 0px;
+}
+.block {
+    display: block;
+}
+.FlexCenter {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0px 0px 25px 0px;
+}
+.FlexItem {
+  
+}
+
+#FlexContainer-1 {
+    padding: 0px 100px 0px 100px;
+    background-color: #1F2937;
+}
+#Description {
+    display:flex;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
+    padding: 50px 100px 50px 100px;
+}
+#FlexContainer-2 {
+    background-color: white;
+    padding: 50px 100px 50px 100px;
+    
+}
+#FlexContainer-3 {
+    
+    background-color: grey;
+    padding: 50px 100px 50px 100px;
+}
+#FlexContainer-4 {
+    
+    background-color: white;
+    padding: 50px 100px 50px 100px;
+}
+#FlexContainer-5 {
+    
+    padding: 0px 100px 0px 100px;
+    background-color: #1F2937;
+    color: #E5E7EB
+}
+.FlexContainer {
+    display:flex;
+    Flex:1;
+    justify-content: center;
+    align-items: center;
+}
+#Header {
+    justify-content: space-around;
+    color: #E5E7EB
+}
+.HeaderLink {
+   list-style: none; 
+   display: inline;
+   padding: 10px;
+}
+
+#Left-Description {
+    justify-content: end;
+    width: 300px;
+    height: 150px;
+}
+#ImgBox {
+    width: 300px;
+    height: 150px;
+    background-color: grey;
+    margin: 0px 15px 0px 15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#infoBoxes {
+    display: flex;
+}
+.infobox {
+    width: 100;
+    height: 150;
+    margin:  0px 25px 0px 25px;
+}
+.box {
+    width: 100;
+    height: 100;
+    border-color: blue;
+    border-style: double;
+    border-radius: 10px;
+}
+button {
+    background-color: blue;
+    color: white;
+    border-radius: 10%;
+    border-style: none;
+}
+p {
+    display: Flex;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    font-size: smaller;
+}
+h2 {
+    display: Flex;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+}
+h1 {
+    margin: 0px;
+}
+em {
+    display: flex;
+    justify-content: end;
+    font-size: 36px;
+    font-weight: bold;
+}
+.Quote {
+    text-align: left;
+    font-size: 36px;
+    font-style: light italic;
+}
+#Quote {
+    width: 600px;
+}
+#callbox {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    background-color: blue;
+    padding: 25px;
+    border-radius: 10px;
+}
